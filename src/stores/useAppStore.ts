@@ -7,3 +7,5 @@ export const useAppStore = create<RecipesSliceType & FavoriteSliceType>()(devtoo
   ...createRecipesSlice(...a),
   ...createFavoriteSlice(...a),
 })));
+
+
